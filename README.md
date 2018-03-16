@@ -21,7 +21,8 @@ The results fetched are:
 2. The Facebook graph api version is v2.4 Make sure you app supports this version
 3. Update the app_id and app_secret with your app's id and secret key
 4. Update the page_id list with the name of Facebook Page e.g. Suppose page you want to scrape is - https://www.facebook.com/sortedfood then give page_id as 'sortedfood' in the page_id list. You can add multiple page ids in this list to collect data for all the pages at once. Make sure the page is public and name you are giving is correct.
-5. If you dont want script to run on specified time then modify the code by removing 
+5. In the code there is a line - statuses = getFacebookPageFeedData(i, access_token, 30) this line collects data for maximum of 30 posts. You can change this number to 1 - 500 to fetch 1-500 posts at time for one page.
+6. If you dont want script to run on specified time then modify the code by removing 
 //**while True:
   now = datetime.datetime.now()
     if (now.hour == 19 and now.minute == 24 and now.second==50) or (now.hour == 12 and now.minute == 00 and now.second == 00): **//

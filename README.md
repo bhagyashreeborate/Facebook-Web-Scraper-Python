@@ -1,7 +1,7 @@
-# Facebook-Web-Scrapper-Python
-I have created a Facebook Page and Posts scrapper in Python. The python script collects posts of the facebook page and also other details like Comments, likes, haha, wow's, texts, links, hashtags, etc.
+# Facebook-Web-Scraper-Python
+I have created a Facebook Page and Posts scraper in Python. The python script collects posts of the facebook page and also other details like Comments, likes, haha, wow's, texts, links, hashtags, etc.
 
-The scrapper collect details of Public Facebook Page using Facebook Graph API. In order to use the script, you should have a Facebook Graph API activated and their Security credentials as mentioned below in the code.
+The scraper collect details of Public Facebook Page using Facebook Graph API. In order to use the script, you should have a Facebook Graph API activated and their Security credentials as mentioned below in the code.
 
 To get the credentials for Graph API you must have a Facebook Developers Account. Here you will create a Developer account and also your intended app for facebook scraping. Once the account and app is created you can access your app_id and app_secret key in settings of that particular app. Once you get this details, you have to add them in app_id and app_secret variables in the script.
 
